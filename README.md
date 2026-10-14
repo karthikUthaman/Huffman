@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # HuffmanForge — Phase 1
 
 Phase 1 is a C++17 foundation for a binary-safe Huffman compressor. It analyzes all 256 byte values, constructs a deterministic Huffman tree, and generates ordinary Huffman codes. This phase does not yet write a compressed `.huff` stream; later phases can add canonical code lengths, format serialization, compression/decompression, statistics, and a Qt 6 interface on top of the core library.
