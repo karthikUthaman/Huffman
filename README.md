@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HuffmanForge — Phase 1
 
 Phase 1 is a C++17 foundation for a binary-safe Huffman compressor. It analyzes all 256 byte values, constructs a deterministic Huffman tree, and generates ordinary Huffman codes. This phase does not yet write a compressed `.huff` stream; later phases can add canonical code lengths, format serialization, compression/decompression, statistics, and a Qt 6 interface on top of the core library.
@@ -60,3 +61,7 @@ g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinclude src\frequency_analyzer.cpp src
 ## Current limits and next phases
 
 This phase builds a tree and code table in memory; it does not encode payload bits or produce `.huff` files. Phase 2 can introduce a versioned file header, canonical code lengths, bit packing, and a decoder. Later phases can add compression statistics, GUI tree rendering, CLI subcommands, malformed-input validation, packaging, an academic report, and portfolio materials. The library API is separated from the CLI to keep those additions independent.
+=======
+# Huffman
+A C++17 file compression tool using Huffman coding
+>>>>>>> 06c6f4d81cb1d3023ff1f4193aeb5caf5a88cfe3
